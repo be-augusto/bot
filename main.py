@@ -17,7 +17,7 @@ GUILD_ID = int(os.getenv('GUILD_ID'))
 CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
 INSTAGRAM_USERNAME = os.getenv('INSTAGRAM_USERNAME')
 INSTAGRAM_PASSWORD = os.getenv('INSTAGRAM_PASSWORD')
-TARGET_PROFILE = 'stelaryss'
+TARGET_PROFILE = os.getenv('INSTAGRAM_USER')
 
 last_reel_url = None
 browser = None
